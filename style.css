@@ -95,5 +95,14 @@ section {
     font-size: 20px;
 }
 
+@media screen and (max-width: 450px) {
+    body{
+        background-image: none;
+    }
 
-
+    main{
+        width: 95%;
+        padding: 20px;
+        margin: 20px auto;
+    }
+}
